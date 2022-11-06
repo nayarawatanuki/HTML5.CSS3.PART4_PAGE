@@ -250,3 +250,21 @@ td, th {
     vertical-align: middle;
     padding: 8px 15px;
 }
+
+@media screen and (max-width: 480px) { 
+    .box, .principal, .map-content, .benefits-content, .video {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position:static;
+    }
+
+    .list-benefits, .benefits_img {
+        width: 100%
+    }
+}
