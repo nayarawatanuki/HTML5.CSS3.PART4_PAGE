@@ -267,4 +267,14 @@ td, th {
     .list-benefits, .benefits_img {
         width: 100%
     }
+
+    .products {
+        width: auto;
+    }
+
+    .products li {
+        display: block;
+        width: auto;
+        margin: 10px 10px 20px;
+    }
 }
