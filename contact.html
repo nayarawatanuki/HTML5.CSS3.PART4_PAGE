@@ -2,6 +2,7 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
         <title>Contato - Barbearia Alura</title>
 
         <link rel="stylesheet" href="reset.css">
@@ -35,9 +36,9 @@
                 <input type="tel" id="phone" class="input-standard" placeholder="(xx) xxxxx-xxxx" required/>
 
                 <label for="message">Mensagem</label>
-                <textarea cols="70" rows="10" id="message" class="input-standard" required></textarea>
+                <textarea rows="10" id="message" class="input-standard" required></textarea>
 
-                <fieldset>
+                <fieldset class="field-standard">
                     <legend>Como prefere o nosso contato?</legend>
                     <label for="radio-email"><input type="radio" name="contact" value="e-mail" id="radio-email"/> E-mail</label>
 
@@ -46,7 +47,7 @@
                     <label for="radio-whatsapp"><input type="radio" name="contact" value="whatsapp" id="radio-whatsapp" checked/> WhatsApp</label>
                 </fieldset>
 
-                <fieldset>
+                <fieldset class="field-standard">
                     <legend>Qual horário prefere ser atendido?</legend>
                     <select>
                         <option>Manhã</option>
@@ -60,27 +61,29 @@
                 <input type="submit" value="Enviar formulário" class="submit"/>
             </form>
 
-            <table>
-                <thead>
-                    <tr>
-                        <th>Dia</th>
-                        <th>Horário</th>
-                    </tr>
-                </thead>
+            <section class="section-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Dia</th>
+                            <th>Horário</th>
+                        </tr>
+                    </thead>
 
-                <tbody>
-                    <tr>
-                        <td>Segunda</td>
-                        <td rowspan="3">8h - 20h</td>
-                    </tr>
-                    <tr>
-                        <td>Quarta</td>
-                    </tr>
-                    <tr>
-                        <td>Sexta</td>
-                    </tr>
-                </tbody>
-            </table>
+                    <tbody>
+                        <tr>
+                            <td>Segunda</td>
+                            <td rowspan="3">8h - 20h</td>
+                        </tr>
+                        <tr>
+                            <td>Quarta</td>
+                        </tr>
+                        <tr>
+                            <td>Sexta</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
         </main>
 
         <footer>
